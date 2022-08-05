@@ -1,0 +1,256 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "guia de canais",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "obrigado"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "CanalNameIntent",
+          "slots": [
+            {
+              "name": "canalname",
+              "type": "CanalType"
+            }
+          ],
+          "samples": [
+            "o que está passando no {canalname}",
+            "para o canal {canalname}",
+            "e do canal {canalname}",
+            "qual programação para o canal {canalname}",
+            "e no canal {canalname}",
+            "no canal {canalname}",
+            "{canalname}",
+            "e no {canalname}",
+            "e na {canalname}",
+            "o que esta passando no {canalname}"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "CanalCompostoIntent",
+          "slots": [
+            {
+              "name": "canal",
+              "type": "CanalType"
+            },
+            {
+              "name": "incremento",
+              "type": "IncrementoType"
+            }
+          ],
+          "samples": [
+            "o que está passando no {canal} {incremento}",
+            "para o canal {canal} {incremento}",
+            "e para o canal {canal} {incremento}",
+            "e do canal {canal} {incremento}",
+            "qual programação para o canal {canal} {incremento}",
+            "e na {canal} {incremento}",
+            "e no {canal} {incremento}",
+            "e no canal {canal} {incremento}",
+            "{canal} {incremento}"
+          ]
+        },
+        {
+          "name": "ProximoProgramaIntent",
+          "slots": [],
+          "samples": [
+            "e a próxima programação",
+            "proximo programa",
+            "qual o próximo programa"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Cnn",
+                "synonyms": [
+                  "cnn",
+                  "CNN"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "CNT",
+                "synonyms": [
+                  "Cnt",
+                  "cnt"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Paramount"
+              }
+            },
+            {
+              "name": {
+                "value": "history"
+              }
+            },
+            {
+              "name": {
+                "value": "record"
+              }
+            },
+            {
+              "name": {
+                "value": "globo"
+              }
+            },
+            {
+              "name": {
+                "value": "cinemax"
+              }
+            },
+            {
+              "name": {
+                "value": "Hbo +",
+                "synonyms": [
+                  "hbo +",
+                  "Hbo +"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "hbo",
+                "synonyms": [
+                  "HBO",
+                  "hbo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Amc",
+                "synonyms": [
+                  "amc",
+                  "AMC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Sbt"
+              }
+            }
+          ],
+          "name": "CanalType"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "tv",
+                "synonyms": [
+                  "Tv",
+                  "Tv"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "plus",
+                "synonyms": [
+                  "+"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "action"
+              }
+            },
+            {
+              "name": {
+                "value": "fun"
+              }
+            },
+            {
+              "name": {
+                "value": "Xtreme"
+              }
+            },
+            {
+              "name": {
+                "value": "Family"
+              }
+            },
+            {
+              "name": {
+                "value": "Signature"
+              }
+            },
+            {
+              "name": {
+                "value": "Mundi"
+              }
+            },
+            {
+              "name": {
+                "value": "2"
+              }
+            },
+            {
+              "name": {
+                "value": "Pop"
+              }
+            },
+            {
+              "name": {
+                "value": "Network",
+                "synonyms": [
+                  "network"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Hd",
+                "synonyms": [
+                  "hD",
+                  "hd",
+                  "HD"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "+",
+                "synonyms": [
+                  "plus"
+                ]
+              }
+            }
+          ],
+          "name": "IncrementoType"
+        }
+      ]
+    }
+  },
+  "version": "31"
+}
