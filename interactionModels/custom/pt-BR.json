@@ -30,6 +30,7 @@
             }
           ],
           "samples": [
+            "o que está passando no canal {canalname}",
             "o que está passando no {canalname}",
             "para o canal {canalname}",
             "e do canal {canalname}",
@@ -47,33 +48,26 @@
           "samples": []
         },
         {
-          "name": "CanalCompostoIntent",
+          "name": "OpcaoSelecionadaIntent",
           "slots": [
             {
-              "name": "canal",
-              "type": "CanalType"
-            },
-            {
-              "name": "incremento",
-              "type": "IncrementoType"
+              "name": "numeroOp",
+              "type": "NumeroType"
             }
           ],
           "samples": [
-            "o que está passando no {canal} {incremento}",
-            "para o canal {canal} {incremento}",
-            "e para o canal {canal} {incremento}",
-            "e do canal {canal} {incremento}",
-            "qual programação para o canal {canal} {incremento}",
-            "e na {canal} {incremento}",
-            "e no {canal} {incremento}",
-            "e no canal {canal} {incremento}",
-            "{canal} {incremento}"
+            "número {numeroOp}",
+            "opcao {numeroOp}",
+            "{numeroOp}",
+            "opção {numeroOp}",
+            "numero {numeroOp}"
           ]
         },
         {
           "name": "ProximoProgramaIntent",
           "slots": [],
           "samples": [
+            "próximo programa",
             "e a próxima programação",
             "proximo programa",
             "qual o próximo programa"
@@ -165,92 +159,184 @@
           "values": [
             {
               "name": {
-                "value": "tv",
+                "value": "20",
                 "synonyms": [
-                  "Tv",
-                  "Tv"
+                  "20"
                 ]
               }
             },
             {
               "name": {
-                "value": "plus",
+                "value": "19",
                 "synonyms": [
-                  "+"
+                  "19"
                 ]
               }
             },
             {
               "name": {
-                "value": "action"
-              }
-            },
-            {
-              "name": {
-                "value": "fun"
-              }
-            },
-            {
-              "name": {
-                "value": "Xtreme"
-              }
-            },
-            {
-              "name": {
-                "value": "Family"
-              }
-            },
-            {
-              "name": {
-                "value": "Signature"
-              }
-            },
-            {
-              "name": {
-                "value": "Mundi"
-              }
-            },
-            {
-              "name": {
-                "value": "2"
-              }
-            },
-            {
-              "name": {
-                "value": "Pop"
-              }
-            },
-            {
-              "name": {
-                "value": "Network",
+                "value": "18",
                 "synonyms": [
-                  "network"
+                  "18"
                 ]
               }
             },
             {
               "name": {
-                "value": "Hd",
+                "value": "17",
                 "synonyms": [
-                  "hD",
-                  "hd",
-                  "HD"
+                  "17"
                 ]
               }
             },
             {
               "name": {
-                "value": "+",
+                "value": "16",
                 "synonyms": [
-                  "plus"
+                  "16"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "15",
+                "synonyms": [
+                  "quinze",
+                  "15"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "14",
+                "synonyms": [
+                  "quatorze",
+                  "14"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "13",
+                "synonyms": [
+                  "treze",
+                  "13"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "12",
+                "synonyms": [
+                  "doze",
+                  "12"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "11",
+                "synonyms": [
+                  "onze",
+                  "11"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "10",
+                "synonyms": [
+                  "dez",
+                  "10"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "9",
+                "synonyms": [
+                  "nove",
+                  "9"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "8",
+                "synonyms": [
+                  "oito",
+                  "8"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "7",
+                "synonyms": [
+                  "sete",
+                  "7"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "6",
+                "synonyms": [
+                  "seis",
+                  "6"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "5",
+                "synonyms": [
+                  "cinco",
+                  "5"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "4",
+                "synonyms": [
+                  "quatro",
+                  "4"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "3",
+                "synonyms": [
+                  "três",
+                  "3"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "2",
+                "synonyms": [
+                  "dois",
+                  "2"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "1",
+                "synonyms": [
+                  "um",
+                  "1"
                 ]
               }
             }
           ],
-          "name": "IncrementoType"
+          "name": "NumeroType"
         }
       ]
     }
   },
-  "version": "31"
+  "version": "6"
 }
